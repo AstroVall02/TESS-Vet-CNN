@@ -125,7 +125,7 @@ models/         trained weights of the final configuration (5 seeds)
 uv venv && source .venv/bin/activate            # or python -m venv .venv
 uv pip install -r requirements.txt
 # 1. Light curves (176 MB of processed arrays, not in the repo). Either download lightcurves_v2.zip from the Releases page
-#    (TODO: add link) and unzip so you get data/lightcurves_v2/, or rebuild from MAST (slow step): src/fetch_data.py + notebooks/02_NASA_ETL_Pipeline.ipynb
+#    (https://github.com/AstroVall02/TESS-Vet-CNN/releases/tag/v1.0) and unzip so you get data/lightcurves_v2/, or rebuild from MAST (slower): src/fetch_data.py + notebooks/02_NASA_ETL_Pipeline.ipynb
 # 2. Build the engineered features
 python src/build_aux_features.py data/processed_labels_v2.csv --out data/processed_labels_v3.csv
 # 3. Train / evaluate (from a notebook, see notebooks/04_CNN_final.ipynb)
