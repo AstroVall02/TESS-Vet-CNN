@@ -1,0 +1,15 @@
+
+# Virtual environments
+.venv/
+venv/
+
+# Python / Jupyter / OS junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Data: large, re-downloadable from MAST (see README)
+data/lightcurves_v1/
+data/lightcurves_v2/
+*.zip

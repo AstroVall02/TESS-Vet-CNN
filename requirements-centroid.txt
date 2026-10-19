@@ -1,0 +1,11 @@
+# Only needed for the centroid / difference-image sub-study (centroid/ folder).
+# These are the dependencies listed by transit-diffImage itself; install it from its repository:
+#   pip install git+https://github.com/stevepur/transit-diffImage
+tess-point>=0.8.0
+astropy
+astroquery
+scipy
+scanf
+pandas
+matplotlib
+spiceypy

@@ -1,0 +1,13 @@
+tic,role,source,sector,cadence_min,n_usable_transits,full_px,full_quality,halves_sep_px,controls_reproducing,fit_matches_named_host,label,note
+86280613,clean,own,47,10,2,0.114,0.985,,0/4,n/a,unverified_on_target,halves untestable (2 transits); control fits q<=0.37
+160268701,clean,own,40,10,2,0.250,0.844,,0/4,n/a,unverified_on_target,halves untestable (2 transits); control fits q<=0.12
+45655786,clean,own,62,3.3,8,0.279,0.969,0.05,0/4,n/a,on_target,halves 0.29/0.27 px at q 0.87/0.94; control fits q<=0.23
+415741431,background_FP,DEATHSTAR,77,3.3,8,1.746,0.774,0.02,0/4,unknown (host not named; fit 0.155 px from TIC 415741434),offset_epoch_specific,first-vs-second-half sep 0.27 px; control fits q<=0.21; diffSNR max 1.80
+279177746,background_FP,DEATHSTAR,75,3.3,6,1.040,0.466,0.37,0/4,unknown (nearest TIC 279177792 at 0.144 px),no_measurement,full-fit quality below 0.5; control fits q<=0.11; cutout rows 17-20 off the CCD edge
+252636888,background_FP,DEATHSTAR,57,3.3,,9.244,0.034,,,,no_measurement,fit failed; transit only 0.07% deep
+403287048,background_FP,Hadjigeorghiou2023,67,3.3,4,,,1.37,n/a,no,no_measurement,halves q 0.14/0.11; 12.8% of frames flagged bad; diffSNR max -0.80
+279740441,background_FP,Hadjigeorghiou2023,34,10,32,,,15.13,n/a,no,no_measurement,halves q 0.26/0.18; fit runs to the cutout corner
+108645766,background_FP,Hadjigeorghiou2023,34,10,8,,,4.60,n/a,no,no_measurement,halves q 0.10/0.14; diffSNR 125 but the PRF model cannot fit it
+431999925,background_FP,Hadjigeorghiou2023,34,10,16,,,5.13,n/a,no,no_measurement,halves q 0.03/0.06; controls at 0.60 and 0.75 give q 0.96/0.92 at (1.68 / -0.08): a persistent feature
+146463781,background_FP,Hadjigeorghiou2023,8,30,41,,,0.06,2/4,yes (0.047 px),offset_not_epoch_specific,halves 2.07/2.01 px at q 0.91/0.87; a third control at q 0.46 also lands there
+274762761,background_FP,Hadjigeorghiou2023,41,10,23,,,0.00,2/4,yes (0.215 px),offset_not_epoch_specific,halves 5.03/5.03 px at q 0.999; host is 2.7 mag brighter than target
